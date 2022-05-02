@@ -1,0 +1,13 @@
+<script>
+/*The forcast today is 293 Kelvin. This value will stay constant.*/
+const kelvin =373;
+/*Celsius is 273 degrees less than Kelvin*/
+let celsius = kelvin - 273;
+/*The following equasion converts celsius to fahrenheit. Then we are using the floor method to round the number down to prevent decimals.*/
+let fahrenheit = Math.floor(celsius * 9/5 + 32);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+console.log(kelvin + 'K', celsius + 'C', fahrenheit + 'F');
+/*Now lets add the temperature in Newton*/
+let newton = Math.floor(celsius * 33/100);
+console.log(`The temperature is ${newton} Newtons`);
+</script>
